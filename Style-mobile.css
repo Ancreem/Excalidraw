@@ -1,0 +1,14 @@
+@media (max-width: 900px){
+    body{
+        background-color: #2c2b47;
+        color: white;
+    }
+    /* header */
+    .logo{
+        padding-left: 0px;
+        
+    }
+    .nav-item{
+        text-align: center;
+    }
+}

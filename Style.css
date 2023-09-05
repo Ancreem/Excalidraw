@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #1e1d2b;
+    color: #ffff;
+}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+button{
+    background-color: #ff702a;
+    color: #ffff;
+}
+
+/* Header */
+#navbarNav{
+    justify-content: end;
+    font-size: 20px;
+}
+
+.nav-item{
+    padding-right: 50px;
+}
+
+.logo{
+    padding-left: 100px;
+    color: #ff702a;
+}
+.nav-link{
+    color: #ffff;
+    font-size: 20px;
+}
+section{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+/* Full WebSite */
+.titulos-home h1{
+    color: #ff702a;
+}
+
+/* About us */
+.titulos-about h6{
+    color: #ff702a;
+}
+
+/* Food Menu */
+.titulos-food h6{
+    color: #ff702a;
+}
+#precios{
+    color: #ff702a;
+}
+
+/* services */
+.cont-servicios h6{
+    color: #ff702a;
+}
+.carta-servicios h5{
+    color: #ff702a;
+}
+
+
+
+
+
+  
