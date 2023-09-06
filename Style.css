@@ -10,7 +10,7 @@ body{
 }
 
 .container{
-    max-width: 1400px;
+    max-width: 1100px;
     margin: auto;
 }
 
@@ -18,8 +18,17 @@ button{
     background-color: #ff702a;
     color: #ffff;
 }
+.boton{
+    margin-top: 20px;
+}
+h1{
+    font-size: 8vh;
+}
 
 /* Header */
+.navbar{
+    background-color: #1e1d2b;
+}
 #navbarNav{
     justify-content: end;
     font-size: 20px;
@@ -38,28 +47,80 @@ button{
     font-size: 20px;
 }
 section{
-    margin-top: 70px;
-    margin-bottom: 70px;
+    margin-bottom: 170px;
+    margin-top: 30px;
 }
 
 /* Full WebSite */
+.cont-full-web{
+    display: flex;
+    align-items: center;
+}
+.titulos-home{
+    width: 50%;   
+}
 .titulos-home h1{
     color: #ff702a;
+}
+
+.imagen-home{
+    width: 50%;
+}
+.imagen-home img{
+    object-fit: cover;
+    width: 100%;
 }
 
 /* About us */
 .titulos-about h6{
     color: #ff702a;
 }
-
+.cont-about{
+    display: flex;
+    align-items: center;
+}
+.titulos-about{
+    width: 50%;
+    margin-left: 35px;
+}
+.imagen-about{
+    width: 50%;
+}
+.imagen-about img{
+    object-fit: cover;
+    width: 100%;
+}
 /* Food Menu */
+.titulos-food{
+    text-align: center ;
+}
 .titulos-food h6{
     color: #ff702a;
 }
 #precios{
     color: #ff702a;
 }
-
+.cartas{
+    display: flex;
+    width: 100%;
+}
+.carta{ 
+    background-color: #ffefe8;
+    width: 33%;
+    text-align: center;
+}
+.texto-cartas{
+    width: 50%;
+}
+.imagen-carta{
+    width: 50%;
+    
+}
+.imagen-carta img{
+    object-fit: cover;
+    width: 100%;
+   
+}
 /* services */
 .cont-servicios h6{
     color: #ff702a;
